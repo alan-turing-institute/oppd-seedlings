@@ -4,4 +4,4 @@ sources:
       origin:
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["zip://__MACOSX/data/*.jpg::https://zenodo.org/record/7501825/files/seedlings.zip"]
+        urlpath: ["zip://*__MACOSX/data/.jpg::https://zenodo.org/record/7501825/files/seedlings.zip"]
