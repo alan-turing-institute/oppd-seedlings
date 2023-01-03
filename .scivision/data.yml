@@ -4,4 +4,4 @@ sources:
       origin:
       driver: intake_xarray.image.ImageSource
       args:
-        urlpath: ["zip://DATA/images_plants/1COMF/*.jpg::https://gitlab.au.dk/AUENG-Vision/OPPD/-/archive/master/OPPD-master.zip"]
+        urlpath: ["zip://*.jpg::https://zenodo.org/record/7501825/files/seedlings.zip"]
