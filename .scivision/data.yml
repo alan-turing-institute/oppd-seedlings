@@ -3,5 +3,5 @@ sources:
       description: The Open Plant Phenotyping Database [OPPD] is a public dataset for visual recognition tasks on images of plant seedlings. The dataset consists of 7,590 images with 315,038 plant objects, representing 64,292 individual plants from 47 different species. Each plant species has been cultivated using three growth conditions (ideal, drought and natural) and tracked temporally to achieve high intra-species variability.
       origin:
       driver: intake_xarray.image.ImageSource
-      args:https://zenodo.org/record/7501825/files/seedlings.zip?download=1
+      args:
         urlpath: ["zip://*.jpg::https://zenodo.org/record/7501825/files/__MACOSX/data/seedlings.zip"]
